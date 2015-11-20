@@ -1,0 +1,1 @@
+﻿Репозиторий находится по ссылке https://github.com/imbeat/TextRenderer

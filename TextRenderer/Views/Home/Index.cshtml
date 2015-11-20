@@ -1,0 +1,18 @@
+﻿@using TextRenderer.HtmlHelpers
+@model TextRenderer.Models.TextViewModel
+<style>
+    * { font-family: monospace; }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Index</title>
+</head>
+<body>
+    <small>Можно навести курсор на сокращенную ссылку, чтобы увидеть полную ссылку.</small>
+    <h2>Текст:</h2>
+    @Html.WrappedText(Model.Text, Model.TextLineMaxLength)
+</body>
+</html>
