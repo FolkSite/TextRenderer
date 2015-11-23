@@ -96,6 +96,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Core\HardCodedTextProvider.cs" />
     <Compile Include="Core\ITextProvider.cs" />
+    <Compile Include="Core\LocalFileTextProivider.cs" />
     <Compile Include="Core\StringHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
